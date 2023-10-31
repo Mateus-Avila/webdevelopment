@@ -1,0 +1,80 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    background-color: var(--cinza-escuro-2);
+}
+
+.rodape__titulo {
+    color: var(--amarelo);
+    text-align: center;
+    font-family: var(--notable);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rodape__listas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__listas_topicos {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rodape__listas_topicos_titulo {
+    color: var(--amarelo);
+    font-family: var(--montserrat);
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.rodape__lista_topicos_itens {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    text-align: start;
+    list-style: none;
+}
+
+.rodape__lista_topicos_item {
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rodape__lista_topicos_item_link {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rodape__direitos {
+    background-color: var(--amarelo);
+    text-align: center;
+}
+
+.rodape__direitos_texto {
+    color: var(--cinza-escuro-3);
+    text-align: center;
+    font-family: var(--montserrat);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

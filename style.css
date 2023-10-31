@@ -1,0 +1,39 @@
+@import url(styles/header.css);
+@import url(styles/inicio.css);
+@import url(styles/footer.css);
+@import url(styles/brainstorm.css);
+@import url(styles/prototipacao.css);
+@import url(styles/desenvolvimento.css);
+
+
+
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --notable: 'Notable', sans-serif;
+
+    --preto-0: #000000;
+    --cinza-escuro-3: #333333;
+    --cinza-escuro-2: #222222;
+    --amarelo: #FFD43B;
+    --branco: #f7f7f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body {
+    background-color: var(--cinza-escuro-3);
+    font: var(--montserrat);
+}
+
+ul {
+list-style: none;
+}

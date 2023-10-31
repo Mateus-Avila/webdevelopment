@@ -1,0 +1,29 @@
+.banner__titulo_grande {
+    font-size: 2em;
+}
+
+.css_html_js {
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px var(--preto-0);
+}
+
+.topico_tecnologia {
+    color: var(--amarelo);
+    font-family: var(--montserrat);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item__link {
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 1em;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.banner {
+    text-align: center;
+    width: 100%;
+}
+
+.banner__imagem {
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner__titulo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 20vw;
+    text-align: center;
+    color: var(--amarelo);
+    font-family: var(--notable);
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secao2__lista_brainstorm {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1em;
+}
+
+.secao2__lista_item_brainstorm {
+    color: var(--cinza-escuro-3);
+    text-align: start;
+    font-family: var(--montserrat);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

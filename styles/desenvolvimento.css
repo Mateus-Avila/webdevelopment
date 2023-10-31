@@ -27,3 +27,38 @@
     margin: 0 1em;
     text-decoration: none;
 }
+
+.secao1__itens {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo_grande {
+        font-size: 5em;
+    }
+
+    .secao1__coluna {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5em;
+        
+    }
+    
+    .css_html_js {
+        width: 45%;
+    }
+
+    .secao1__itens {
+        gap: 3em;
+    }
+
+    .topico_tecnologia {
+        font-size: 1.5em;
+    }
+
+    .item__link {
+        font-size: 1.0em;
+    }
+}

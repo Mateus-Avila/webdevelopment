@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Notable&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <script src="../main.js" dever></script>
+    <script src="../main.js" defer></script>
     
 </head>
 <body>
@@ -29,26 +29,36 @@
                 <ul class="lista-menu inativa" id="listaMenu">
                     <li class="lista-menu__titulo">Tópicos:</li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link"><a href="pages/brainstorm.html">Brainstorm</a></a>
+                        <a href="pages/brainstorm.html" class="lista-menu__link">Brainstorm</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Prototipação</a>
+                        <a href="pages/prototipacao.html" class="lista-menu__link">Prototipação</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Desenvolvimento</a>
+                        <a href="pages/desenvolvimento.html" class="lista-menu__link">Desenvolvimento</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Uso do Git</a>
+                        <a href="pages/usodogit.html" class="lista-menu__link">Uso do Git</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Validação</a>
+                        <a href="pages/validacao.html" class="lista-menu__link">Validação</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Deploy</a>
+                        <a href="pages/deploy.html" class="lista-menu__link">Deploy</a>
                     </li>
             </div>
-            <div class="cabecalho__titulo">
-                <h1>DW</h1>
+            <nav class="cabecalho__links">
+                <a href="pages/brainstorm.html" class="navlink">Brainstorm</a>
+                <a href="pages/prototipacao.html" class="navlink">Prototipação</a>
+                <a href="pages/desenvolvimento.html" class="navlink">Desenvolvimento</a>
+                <a href="pages/usodogit.html" class="navlink">Uso do Git</a>
+                <a href="pages/validacao.html" class="navlink">Validação</a>
+                <a href="pages/deploy.html" class="navlink">Deploy</a>
+            </nav>
+            <div >
+                <a href="index.html" class="cabecalho__titulo">
+                    <h1 class="">DW</h1>
+                </a>
             </div>
         </div>
     </header>
@@ -75,7 +85,7 @@
                 <p class="secao1__texto">Esse projeto é fruto de uma Prática Extensionista, uma matéria que nos 
                     propõe o desenvolvimento de algum projeto</p>                
             </div>
-            <div class="secao3__bloco">
+            <div class="secao3__bloco reverse">
                 <h2 class="secao1__titulo">Qual o Objetivo?</h2>
                 <p class="secao1__texto">Durante o curso de Engenharia da Computação, você terá uma matéria dessa por semestre, o que nos proporciona uma ampla gama de conhecimentos e experiência</p>                
             </div>
@@ -85,7 +95,9 @@
 
     <footer>
         <div class="rodape">
-            <h2 class="rodape__titulo">DW</h2>
+            <a href="index.html" class="rodape__titulo_link">
+                <h2 class="rodape__titulo">DW</h2>
+            </a>
             <div class="rodape__listas">
                 <div class="rodape__listas_topicos">
                     <h3 class="rodape__listas_topicos_titulo">Tópicos:</h3>
@@ -109,9 +121,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rodape__direitos">
-                <p class="rodape__direitos_texto">Todos os direitos reservados</p>
-            </div>
+        </div>
+        <div class="rodape__direitos">
+            <p class="rodape__direitos_texto">Todos os direitos reservados</p>
         </div>
     </footer>
 </body>

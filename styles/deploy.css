@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+    .vercel_logo {
+        width: 25em;
+    }
+
+    .espacamento_secao1 {
+        display: flex;
+        flex-direction: row;
+        margin: 5em 20em;
+        gap: 5em;
+        align-items: center;
+    }
+    
+}

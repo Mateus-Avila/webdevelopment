@@ -78,3 +78,30 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2em 10em;
+        text-align: center;
+        align-items: center;
+    }
+
+    .rodape__titulo {
+        font-size: 5em;
+    }
+
+    .rodape__listas {
+        gap: 15em;
+    }
+
+    .rodape__lista_topicos_item_link:hover {
+        color: var(--amarelo);
+    }
+
+    .rodape__lista_topicos_item:hover {
+        transform: scale(102%);
+        transition-duration: 200ms;
+    }
+}
